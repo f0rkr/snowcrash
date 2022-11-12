@@ -20,6 +20,6 @@ flag00@SnowCrash:~$`
 
 Now executing the command getflag to get Level01 token 
 
-***flag00@SnowCrash:~$ getflag
+***flag00@SnowCrash:~$ getflag***
 Check flag.Here is your token : `x24ti5gi3x0ol2eh4esiuxias`
-flag00@SnowCrash:~$***
+***flag00@SnowCrash:~$***
