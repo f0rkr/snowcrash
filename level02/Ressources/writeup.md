@@ -21,11 +21,12 @@ Downloading the pcap file using scp command
 #  Good luck & Have fun
 
 #         10.12.177.116
-```
 
-`level02@10.12.177.116's password:`
+
+level02@10.12.177.116's password:
 
 level02.pcap                                         100% 8302     9.4MB/s   00:00
+```
 
 `[~]$ ls`
 
