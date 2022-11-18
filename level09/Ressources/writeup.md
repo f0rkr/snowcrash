@@ -4,7 +4,9 @@ token writen in it 'f4kmm6p|=�p�n��DB�Du{��'
 The binary takes an argument and writes back a string with the same length as the argument
 
 It is a substitution cipher
+
 [ e(x) = x + index_of(x) ]
+
 [ d(y) = y - index_of(y) ]
 
 The code in decrypt.c decrypts cipher and gives the password for flag09 user
