@@ -1,8 +1,11 @@
 It’s seems that there’s nothing we can learn from the level01 home folder since it’s empty. Let’s try and cat the /etc/passwd.
 
 `level01@SnowCrash:~$ cat /etc/passwd`
+
 ..
+
 ..
+
 `flag01:42hDRfypTqqnw:3001:3001::/home/flag/flag01:/bin/bash`
 
 Let’s try and decrypt it using john
