@@ -1,6 +1,7 @@
 Once logged in the system prompt to us the following msg "You have a new mail."
 
-`[~]$ ssh level05@10.12.177.116 -p 4242`
+```
+[~]$ ssh level05@10.12.177.116 -p 4242
 	   _____                      _____               _
 	  / ____|                    / ____|             | |
 	 | (___  _ __   _____      _| |     _ __ __ _ ___| |__
@@ -11,8 +12,9 @@ Once logged in the system prompt to us the following msg "You have a new mail."
   Good luck & Have fun
 
           10.12.177.116
-`level05@10.12.177.116's password:`
-# You have new mail.
+level05@10.12.177.116's password:
+You have new mail.
+```
 
 After we execute the find command to look for related files to level05
 
@@ -25,17 +27,17 @@ level05@SnowCrash:~$
 
 We get the /var/mail/level05 which indicate that a running conjob is executing the script /usr/sbin/openarenaserver as flag05 user
 
-`level05@SnowCrash:~$ cat /var/mail/level05`
-
-# */2 * * * * su -c "sh /usr/sbin/openarenaserver" - flag05
-
-`level05@SnowCrash:~$`
+```
+level05@SnowCrash:~$ cat /var/mail/level05
+*/2 * * * * su -c "sh /usr/sbin/openarenaserver" - flag05
+level05@SnowCrash:~$
+```
 
 Now looking the source code of the script it's obvious that it's looping through all files in 
 /opt/openarenaserver folder and execute them with bash as follow
 
-`level05@SnowCrash:~$ cat /usr/sbin/openarenaserver`
 ```
+level05@SnowCrash:~$ cat /usr/sbin/openarenaserver
 #!/bin/sh
 
 for i in /opt/openarenaserver/* ; do
