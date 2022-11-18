@@ -1,11 +1,10 @@
 At first we find a pcap file in the home folder
 
-`level02@SnowCrash:~$ ls`
-
-# level02.pcap
-
-`level02@SnowCrash:~$`
-
+```
+level02@SnowCrash:~$ ls
+level02.pcap
+level02@SnowCrash:~$
+```
 Downloading the pcap file using scp command
 
 ```
