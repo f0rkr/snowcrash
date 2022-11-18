@@ -10,7 +10,8 @@ Downloading the pcap file using scp command
 
 `[~]$ scp -P 4242  level02@10.12.177.116:level02.pcap .`
 
-#	   _____                      _____               _
+```
+	   _____                      _____               _
 #	  / ____|                    / ____|             | |
 #	 | (___  _ __   _____      _| |     _ __ __ _ ___| |__
 #	  \___ \| '_ \ / _ \ \ /\ / / |    | '__/ _` / __| '_ \
@@ -20,6 +21,7 @@ Downloading the pcap file using scp command
 #  Good luck & Have fun
 
 #         10.12.177.116
+```
 
 `level02@10.12.177.116's password:`
 
