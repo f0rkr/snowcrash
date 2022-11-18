@@ -14,7 +14,7 @@ Let’s try and decrypt it using john
 
 `level01@SnowCrash:~$ john hash`
 
-`abcdefg`
+**abcdefg**
 
 `flag01@SnowCrash:~$ getflag`
 
