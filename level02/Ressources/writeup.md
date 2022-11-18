@@ -8,10 +8,9 @@ At first we find a pcap file in the home folder
 
 Downloading the pcap file using scp command
 
-`[~]$ scp -P 4242  level02@10.12.177.116:level02.pcap .`
-
 ```
-	   _____                      _____               _
+[~]$ scp -P 4242  level02@10.12.177.116:level02.pcap .
+#	   _____                      _____               _
 #	  / ____|                    / ____|             | |
 #	 | (___  _ __   _____      _| |     _ __ __ _ ___| |__
 #	  \___ \| '_ \ / _ \ \ /\ / / |    | '__/ _` / __| '_ \
@@ -26,36 +25,38 @@ Downloading the pcap file using scp command
 level02@10.12.177.116's password:
 
 level02.pcap                                         100% 8302     9.4MB/s   00:00
-```
 
-`[~]$ ls`
-
+[~]$ ls
 level02.pcap
-
-`[~]$`
+[~]$
+```
 
 Opening pcap file with wireshark. After following a sus TCP stream we ended up with this data 
 It's obvious that it's successful login attemp with clear text password
 
-`Linux 2.6.38-8-generic-pae (::ffff:10.1.1.2) (pts/10)`
+```
+Linux 2.6.38-8-generic-pae (::ffff:10.1.1.2) (pts/10)
 
-`wwwbugs login: lleevveellXX`
+wwwbugs login: lleevveellXX
 
-`Password: ft_wandrNDRelL0L`
+Password: ft_waNDReL0L
 
-`Login incorrect`
+Login incorrect
 
-`wwwbugs login:`
+wwwbugs login:
+```
 
 
 Trying to login to flag02 with this password 
 
-`level02@SnowCrash:~$ su flag02`
+```
+level02@SnowCrash:~$ su flag02
 
-Password: `ft_wandrNDRelL0L`
+Password: `ft_waNDReL0L`
 
-`flag02@SnowCrash:~$ getflag`
+flag02@SnowCrash:~$ getflag
 
-`Check flag.Here is your token : kooda2puivaav1idi4f57q8iq`
+Check flag.Here is your token : kooda2puivaav1idi4f57q8iq
 
-`flag02@SnowCrash:~$`
+flag02@SnowCrash:~$
+```
